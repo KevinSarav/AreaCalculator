@@ -13,6 +13,9 @@
 		8040513A24AD339B0094B1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8040513824AD339B0094B1E0 /* Main.storyboard */; };
 		8040513C24AD339C0094B1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8040513B24AD339C0094B1E0 /* Assets.xcassets */; };
 		8040513F24AD339C0094B1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8040513D24AD339C0094B1E0 /* LaunchScreen.storyboard */; };
+		8040514824AD38E40094B1E0 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8040514724AD38E40094B1E0 /* Rectangle.swift */; };
+		8040514A24AD38F50094B1E0 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8040514924AD38F50094B1E0 /* Triangle.swift */; };
+		8040514C24AD39040094B1E0 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8040514B24AD39040094B1E0 /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8040513B24AD339C0094B1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8040513E24AD339C0094B1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8040514024AD339C0094B1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8040514724AD38E40094B1E0 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		8040514924AD38F50094B1E0 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		8040514B24AD39040094B1E0 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		8040513124AD339B0094B1E0 /* AreaCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				8040514624AD38C50094B1E0 /* Shapes */,
 				8040513224AD339B0094B1E0 /* AppDelegate.swift */,
 				8040513424AD339B0094B1E0 /* SceneDelegate.swift */,
 				8040513624AD339B0094B1E0 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				8040514024AD339C0094B1E0 /* Info.plist */,
 			);
 			path = AreaCalculator;
+			sourceTree = "<group>";
+		};
+		8040514624AD38C50094B1E0 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				8040514724AD38E40094B1E0 /* Rectangle.swift */,
+				8040514924AD38F50094B1E0 /* Triangle.swift */,
+				8040514B24AD39040094B1E0 /* Circle.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +157,10 @@
 			files = (
 				8040513724AD339B0094B1E0 /* ViewController.swift in Sources */,
 				8040513324AD339B0094B1E0 /* AppDelegate.swift in Sources */,
+				8040514A24AD38F50094B1E0 /* Triangle.swift in Sources */,
 				8040513524AD339B0094B1E0 /* SceneDelegate.swift in Sources */,
+				8040514824AD38E40094B1E0 /* Rectangle.swift in Sources */,
+				8040514C24AD39040094B1E0 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
